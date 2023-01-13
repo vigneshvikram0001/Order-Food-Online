@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./assets/images/chief logo.jpg" />
+    <title>Order South Indian Foods and Deserts | Online Food Delivery</title>
+    <link rel="stylesheet" href="./assets/css/all.min.css" />
+    <link rel="stylesheet" href="./assets/css/fontawesome.min.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <!-- nav bar start -->
+    <header>
+      <nav class="nav">
+      <h2 class="no-item">No Item Found.. Refresh page</h2>
+        <div class="nav-logo">
+          <img src="./assets/images/chief logo.png" alt="Food Lover logo" class="nav-logo-img"/>
+          <h2 class="nav-logo-name">Food<i class="logo-i"> Lover!</i></h2>
+        </div>
+        <div class="nav-content">
+          <div class="nav-content-input">
+            <input type="text" class="input-search" placeholder="search food"/>
+            <i class="fa-solid fa-magnifying-glass" id="input-search-icon"></i>
+          </div>
+          <div class="nav-cart-icon">
+            <i id="cart-logo" class="fa-solid fa-cart-shopping"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- nav bar end -->
+    <div class="container" id="food-item">
+        <ul  class="container-items">
+          <li><a href="#" data-filter="home" class="aTag a-clicked">Home</a></li>
+          <li><a href="#" data-filter="sweet" class="aTag">Sweets</a></li>
+          <li><a href="#" data-filter="dosa" class="aTag">Dosa</a></li>
+          <li><a href="#" data-filter="veg" class="aTag">Veg Rice</a></li>
+          <li><a href="#" data-filter="non" class="aTag">Non-veg</a></li>
+          <li><a href="#" data-filter="desert" class="aTag">Deserts</a></li>
+          <li><a href="#" data-filter="other" class="aTag">Other Items</a></li>
+        </ul>
+    </div>
+    </div>
+
+    <section>
+      <div class="cart">
+        <div class="cart-container">
+          <h3 class="cart-title">🍕Your Orders are here🍟</h3>
+        </div>
+        <div class="mes">🤩Successfully your Order has been Placed, Have a Great Day💕.. Refresh and order other foods</div>
+        <div class="total">
+          <h2 class="total-title">Total</h2>
+          <div class="total-content">
+          <button class="total-btn">Order Now</button>
+          <div class="total-price">₹0.00</div>
+        </div>
+        </div>
+        <i class="fa-solid fa-xmark" id="cart-close"></i>
+      </div>
+    </section>
+
+    <section class="food-items">
+      <h1 class="food-items-title">🍔 Your Favorite Foods and Deserts are here..🍴</h1>
+      <div class="food-links">
+        <div class="food-box" data-item="sweet">
+          <img src="./assets/images/sweet laddu.webp" class="food-img">
+          <div class="food-content">
+            <div class="food-title">Sweet Laddu</div>
+            <div class="food-price">₹80</div>
+            <button id="food-cart-add">Add Cart</button>
+          </div>
+        </div>
+        <div class="food-box" data-item="veg">
+          <img src="./assets/images/biriyani veg.webp" class="food-img">
+          <div class="food-content">
+            <div class="food-title">Veg Briyani</div>
+            <div class="food-price">₹100</div>
+            <button id="food-cart-add">Add Cart</button>
+          </div>
+        </div>
+        <div class="food-box" data-item="dosa">
+          <img src="./assets/images/dosa2.webp" class="food-img">
+          <div class="food-content">
+            <div class="food-title">Dosa</div>
+            <div class="food-price">₹40</div>
+            <button id="food-cart-add">Add Cart</button>
+          </div>
+        </div>
+        <div class="food-box" data-item="non">
+          <img src="./assets/images/fish frie.webp" class="food-img">
+          <div class="food-content">
+            <div class="food-title">Fish Fry</div>
+            <div class="food-price">₹50</div>
+            <button id="food-cart-add">Add Cart</button>
+          </div>
+        </div>
+        <div class="food-box" data-item="veg">
+          <img src="./assets/images/lemon rice.webp" class="food-img">
+          <div class="food-content">
+            <div class="food-title">Lemon Rice</div>
+            <div class="food-price">₹35</div>
+            <button id="food-cart-add">Add Cart</button>
+          </div>
+        </div>
+        <div class="food-box" data-item="other">
+          <img src="./assets/images/chapathi.webp" class="food-img">
+          <div class="food-content">
+            <div class="food-title">Chapathi</div>
+            <div class="food-price">₹20</div>
+            <button id="food-cart-add">Add Cart</button>
+          </div>
+        </div>
+        <div class="food-box" data-item="dosa">
+          <img src="./assets/images/idly.webp" class="food-img">
+          <div class="food-content">
+            <div class="food-title">Idly</div>
+            <div class="food-price">₹10</div>
+            <button id="food-cart-add">Add Cart</button>
+          </div>
+        </div>
+        <div class="food-box" data-item="veg">
+          <img src="./assets/images/sambar rice.webp" class="food-img">
+          <div class="food-content">
+            <div class="food-title">Sambar Rice</div>
+            <div class="food-price">₹45</div>
+            <button id="food-cart-add">Add Cart</button>
+          </div>
+        </div>
+        <div class="food-box" data-item="desert">
+          <img src="./assets/images/ice chocolates.webp" class="food-img">
+          <div class="food-content">
+            <div class="food-title">Chocolate Ice</div>
+            <div class="food-price">₹60</div>
+            <button id="food-cart-add">Add Cart</button>
+          </div>
+        </div>
+        <div class="food-box" data-item="non">
+          <img src="./assets/images/briyani1.webp" class="food-img">
+          <div class="food-content">
+            <div class="food-title">Chicken Biriyani</div>
+            <div class="food-price">₹100</div>
+            <button id="food-cart-add">Add Cart</button>
+          </div>
+        </div>
+        <div class="food-box" data-item="other">
+          <img src="./assets/images/boori.webp" class="food-img">
+          <div class="food-content">
+            <div class="food-title">Boori</div>
+            <div class="food-price">₹40</div>
+            <button id="food-cart-add">Add Cart</button>
+          </div>
+        </div>
+        <div class="food-box" data-item="other">
+          <img src="./assets/images/borota.webp" class="food-img">
+          <div class="food-content">
+            <div class="food-title">Borota</div>
+            <div class="food-price">₹20</div>
+            <button id="food-cart-add">Add Cart</button>
+          </div>
+        </div>
+        <div class="food-box" data-item="dosa">
+          <img src="./assets/images/masal dosa.webp" class="food-img">
+          <div class="food-content">
+            <div class="food-title">Masal Dosa</div>
+            <div class="food-price">₹60</div>
+            <button id="food-cart-add">Add Cart</button>
+          </div>
+        </div>
+        <div class="food-box" data-item="non">
+          <img src="./assets/images/chilli chicken.webp" class="food-img">
+          <div class="food-content">
+            <div class="food-title">Chilli Chicken</div>
+            <div class="food-price">₹100</div>
+            <button id="food-cart-add">Add Cart</button>
+          </div>
+        </div>
+        <div class="food-box" data-item="sweet">
+          <img src="./assets/images/sweet halwa.webp" class="food-img">
+          <div class="food-content">
+            <div class="food-title">Sweet Halwa</div>
+            <div class="food-price">₹90</div>
+            <button id="food-cart-add">Add Cart</button>
+          </div>
+        </div>
+        <div class="food-box" data-item="sweet">
+          <img src="./assets/images/sweet jilabi.webp" class="food-img">
+          <div class="food-content">
+            <div class="food-title">Sweet Jilabi</div>
+            <div class="food-price">₹45</div>
+            <button id="food-cart-add">Add Cart</button>
+          </div>
+        </div>
+        <div class="food-box" data-item="other">
+          <img src="./assets/images/vadai.webp" class="food-img">
+          <div class="food-content">
+            <div class="food-title">Vadai</div>
+            <div class="food-price">₹10</div>
+            <button id="food-cart-add">Add Cart</button>
+          </div>
+        </div>
+        <div class="food-box" data-item="other">
+          <img src="./assets/images/vadai2.webp" class="food-img">
+          <div class="food-content">
+            <div class="food-title">Masal Vada</div>
+            <div class="food-price">₹15</div>
+            <button id="food-cart-add">Add Cart</button>
+          </div>
+        </div>
+        <div class="food-box" data-item="desert">
+          <img src="./assets/images/ice cone.webp" class="food-img">
+          <div class="food-content">
+            <div class="food-title">Cone Ice</div>
+            <div class="food-price">₹40</div>
+            <button id="food-cart-add">Add Cart</button>
+          </div>
+        </div>
+        <div class="food-box" data-item="desert">
+          <img src="./assets/images/scope ice.webp" class="food-img">
+          <div class="food-content">
+            <div class="food-title">Scope Ice</div>
+            <div class="food-price">₹60</div>
+            <button id="food-cart-add">Add Cart</button>
+          </div>
+        </div>
+        <div class="food-box" data-item="sweet">
+          <img src="./assets/images/sweet payasam.webp" class="food-img">
+          <div class="food-content">
+            <div class="food-title">Payasam</div>
+            <div class="food-price">₹70</div>
+            <button id="food-cart-add">Add Cart</button>
+          </div>
+        </div>
+        <div class="food-box" data-item="desert">
+          <img src="./assets/images/ice scoop.webp" class="food-img">
+          <div class="food-content">
+            <div class="food-title">Ice Scoop</div>
+            <div class="food-price">₹70</div>
+            <button id="food-cart-add">Add Cart</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section class="thumb">
+      <h2 class="thumb-title">🥤Order Now!</h2>
+      <div class="thumb-content">
+        <img src="./assets/images/biriyani2.webp" alt="Biriyani images" class="thumb-img">
+        <h5 class="thumb-text">"The secret ingredient is always cheese.."</h5>
+      </div>
+    </section>
+
+    <section class="form">
+      <h2 class="thumb-title">🎁 Connect with Us!</h2>
+      <div class="form-content">
+        <input type="text" placeholder="Enter your email" class="form-input" required>
+        <button class="form-btn" id="form-btn">Update!!</button>
+      </div>
+    </section>
+
+    <footer>
+      <div class="brand-icon">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-linkedin"></i>
+      </div>
+      <ul class="navbar">
+        <li class="foot-nav"><a href="#">Home</a></li>
+        <li class="foot-nav"><a href="#">Food Items</a></li>
+        <li class="foot-nav"><a href="#">Contact</a></li>
+        <li class="foot-nav"><a href="#">Blog</a></li>
+        <li class="foot-nav"><a href="#">Products</a></li>
+      </ul>
+      <h5 class="foot-h5">&copy; CopyRight 2022 | Food Lover</h5>
+      <h6 class="foot-h6">All Rights Reserved</h6>
+    </footer>
+
+
+
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
